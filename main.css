@@ -44,7 +44,7 @@
 
 /* Hover Effects */
 .facebookhover:hover {
-    color: #098cf1;
+    background-color: #098cf1;
     transition: background-color 0.3s ease;
 }
 
@@ -90,16 +90,33 @@
     color: #ffffff;
 }
 
-
 .modal
 {
-    transition: 0.5s ease-in-out;
+  scale: 0;
+  transition: scale .5s ease;
 }
-
 .active
 {
     scale: 1;
+    
 }
+
+.tint
+{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#ffffff30;
+    z-index: 10;
+    scale: 0;
+}
+
+/* .activeeee
+{
+    opacity: ;
+} */
 
 
 

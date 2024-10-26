@@ -1,11 +1,13 @@
-const a = document.querySelector(".modal");
-const b = document.querySelector(".tint");
+const modal = document.querySelector(".modal");
+const tint = document.querySelector(".tint");
 
-const openmodal = () => {
-    a.classList.add("active");
-    b.classList.add("active");
+function openmodal()
+{
+    modal.classList.add("active")
+    tint.classList.add("active")
 }
 
-let closemodal = () => {
-    a.classList.remove("active")
+function closemodal()
+{
+    modal.classList.remove("active")
 }
